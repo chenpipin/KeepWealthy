@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "electron-angular": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "electron-angular"
+    }
+  },
+  "defaultProject": "electron-angular",
+  "cli": {
+    "analytics": "1df70a7a-6cec-4519-89cf-22662e2b137d"
+  }
 }
